@@ -1,0 +1,26 @@
+/* .App {
+  text-align: center;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.add-button {
+  display: inline-block;
+  min-width: 40px;
+  height: 40px;
+  background: #86d418;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  margin: 10px;
+  width: 95%;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
