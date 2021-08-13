@@ -4,8 +4,10 @@ import "./card.scss";
 const CardList = (props) => {
   return (
     <>
-      <Card className="custom-card" title={props && props.title}>
-        {props && props.content}
+      <Card className="custom-card mt-1" title={props && props.login}>
+        <div>
+          <img src={props && props.avatar_url} className="card-avatar" />
+        </div>
       </Card>
     </>
   );
